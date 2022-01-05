@@ -35,7 +35,7 @@ def check_if_template_matches(image_path, template_path):
 
 
 if __name__ == "__main__":
-    image_path = 'assets/source_image.png'
-    template_path = 'assets/template.png'
+    image_path = "assets/source_image.png"
+    template_path = "assets/template.png"
     out = check_if_template_matches(image_path, template_path)
     print(out)
